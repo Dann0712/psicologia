@@ -1,0 +1,21 @@
+{% extends 'list.html' %}
+{% load static %}
+{% block assets_list %}
+    <script src="{% static 'citas/js/list.js' %}"></script>
+{% endblock %}
+
+{% block columns %}
+    <th>Id</th>
+    <th>Nombres</th>
+    <th>Teléfono</th>
+    <th>Correo</th>
+    <th>Fecha de la cita</th>
+    <th>Hora Agendada</th>
+    <th>Psicologo</th>
+    <th>Proposito</th>
+    <th>Opciones</th>
+{% endblock %}
+
+{% block javascript_list %}
+
+{% endblock %}

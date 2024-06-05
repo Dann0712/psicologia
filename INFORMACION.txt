@@ -1,0 +1,7 @@
+V 2.0
+Se crearon las bases para la el usuario admin
+Se tiene dashboar funcional
+Se tiene login, cambio de contraseña, envio de email de confirmacion para token
+
+
+bug al iniciar: probablemente por la vista dashboard vacia
